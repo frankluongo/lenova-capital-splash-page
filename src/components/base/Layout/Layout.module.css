@@ -1,0 +1,14 @@
+.main {
+  --padding: 1.5rem;
+
+  padding: var(--padding);
+
+  color: #333;
+  font-family: -apple-system, Roboto, sans-serif, serif;
+}
+
+@media (min-width: 900px) {
+  .main {
+    --padding: 3rem;
+  }
+}
